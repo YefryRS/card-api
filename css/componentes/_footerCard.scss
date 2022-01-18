@@ -1,0 +1,22 @@
+.footer {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    .reactions {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        &__item {
+            margin-right: 25px;
+            text-align: center;
+            h6 {
+                font-size: 1.5rem;
+                color: $Dark-grayish-blue;
+            }
+            p {
+                font-size: 0.9rem;
+                color: $Dark-gray;
+            }
+        }
+    }
+}

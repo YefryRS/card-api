@@ -1,0 +1,30 @@
+$color-primario: hsl(185, 75%, 39%);
+$color-secundario: hsl(229, 23%, 23%);
+$Dark-gray: hsl(0, 0%, 59%);
+$Dark-grayish-blue: hsl(227, 10%, 46%);
+
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px 
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 61.5%;
+    font-size: 1.8rem;  
+    background-color: $Dark-grayish-blue;
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+}
